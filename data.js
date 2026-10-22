@@ -7,25 +7,25 @@ const PORTFOLIO = {
   name: "Sumit",
   tagline: "AI/ML student • Web builder • DSA in C++",
   intro:
-    "Hi, main Sumit hoon — ek first-year BTech CSE (AI/ML) student from Jaipur. Mujhe AI se real problems solve karna aur clean, interactive websites banana pasand hai.",
+    "Hi, I'm Sumit, a second-year B.Tech CSE AIML student in Jaipur. I use AI to solve real problems and build clean, interactive websites.",
   photo: "assets/profile.jpg", // put your photo here (falls back to initials if missing)
   location: "Jaipur, Rajasthan, India",
 
-  github: "YOUR_GITHUB_USERNAME", // e.g. "sumit123"
-  email: "YOUR_EMAIL@gmail.com",
-  linkedin: "", // optional: full URL, leave "" to hide
+  github: "SumitSingh06", 
+  email: "sumitapple62@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sumit-singh-9a4372315?utm_source=", 
 
   about: [
-    "I am a first-year B.Tech Computer Science & Engineering student (AI/ML specialization) at JECRC University, Jaipur.",
-    "I am a Google Student Ambassador (GSA) under the Communique India / TeamGemini program, and I take the CTO role in team projects through my Entrepreneur Development Programme (EDP).",
-    "I also teach Maths and Science to school students (Classes 6–10), and I am an ex-NCC cadet — I cleared the 'B' Certificate exam with Grade A.",
+    "I am a second-year B.Tech Computer Science & Engineering student (AI/ML specialization) at JECRC University, Jaipur.",
+    "I am a ex-Google Student Ambassador (GSA) under the Communique India / TeamGemini program, and I take the CTO role in team projects through my Entrepreneur Development Programme (EDP).",
+    " I am an ex-NCC cadet — I cleared the 'B' Certificate exam with Grade A.",
   ],
 
   education: [
     {
       title: "B.Tech CSE (AI/ML)",
       place: "JECRC University, Jaipur",
-      period: "2026 – present (1st year)",
+      period: "2026 – present (2nd year)",
     },
   ],
 
@@ -41,8 +41,8 @@ const PORTFOLIO = {
     {
       id: "python-programs",
       title: "Python Programs Collection",
-      repo: "YOUR_PYTHON_PROGRAMS_REPO", // repo name only, e.g. "python-programs"
-      live: "",
+      repo: "PYTHON_PROGRAMS", // repo name only, e.g. "python-programs"
+      live: "https://github.com/SumitSingh06/experiment-8-ai-debugging-25bcon2013",
       tech: ["Python", "Git", "GitHub", "Markdown"],
       description:
         "Beginner-friendly Python programs: Factorial, Fibonacci series, and Structure-to-Dictionary conversion, with a clean updated README.",
@@ -52,8 +52,8 @@ const PORTFOLIO = {
     {
       id: "messy-code",
       title: "Messy Python Code Improvement",
-      repo: "YOUR_MESSY_CODE_REPO",
-      live: "",
+      repo: "MESSY_python_code",
+      live: "https://github.com/SumitSingh06/experiment-8-ai-debugging-25bcon2013",
       tech: ["Python", "AI Assistance", "Refactoring"],
       description:
         "A deliberately messy Python script cleaned up with AI help: better names, structure, functions and comments.",

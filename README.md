@@ -3,7 +3,7 @@
 A responsive personal portfolio with project search/filter, light/dark mode and an API-powered AI chatbot that answers questions about me and my projects.
 
 **Live website:** YOUR_VERCEL_LIVE_URL
-**GitHub:** https://github.com/YOUR_GITHUB_USERNAME
+**GitHub:** https://github.com/SumitSingh06
 
 ## Sections
 Home • About Me • Skills • Projects • Contact Information • AI Chatbot
@@ -43,7 +43,7 @@ portfolio/
 git clone https://github.com/YOUR_GITHUB_USERNAME/portfolio.git
 cd portfolio
 npm i -g vercel
-cp .env.example .env      # add your GROQ_API_KEY
+cp .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 .env      # add your GROQ_API_KEY
 vercel dev                # opens http://localhost:3000 (site + /api/chat)
 ```
 (Opening `index.html` directly works for everything except the chatbot.)
@@ -51,7 +51,7 @@ vercel dev                # opens http://localhost:3000 (site + /api/chat)
 ## Deploy on Vercel
 1. Push this repo to GitHub.
 2. Vercel → **Add New Project** → import the repo → Framework preset: **Other**.
-3. Settings → **Environment Variables** → add `GROQ_API_KEY` → **Redeploy**.
+3. Settings → **Environment Variables** → add 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 → **Redeploy**.
 
 ## Author
 Sumit — B.Tech CSE (AI/ML), JECRC University, Jaipur
