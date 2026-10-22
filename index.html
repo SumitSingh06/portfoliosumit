@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sumit — Portfolio</title>
+  <meta name="description" content="Portfolio of Sumit — BTech CSE (AI/ML) student at JECRC University, Jaipur." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    // apply saved theme before paint (no flash)
+    try { document.documentElement.dataset.theme = localStorage.getItem("theme") || "dark"; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">&lt;<span id="logoName">Sumit</span>/&gt;</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#chatbot">AI Chatbot</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle light/dark mode" title="Toggle theme">🌙</button>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="mono eyebrow">// hello, world</p>
+        <h1>I'm <span class="accent" id="heroName">Sumit</span></h1>
+        <p class="tagline mono" id="tagline"></p>
+        <p class="lead" id="intro"></p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" id="githubBtn" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn" href="#chatbot">Ask my AI</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img id="photo" alt="Profile photo of Sumit" />
+          <span class="initials" id="initials" hidden>S</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="title"><span class="mono">01.</span> About Me</h2>
+      <div class="grid-2">
+        <div id="aboutText" class="reveal"></div>
+        <div class="card reveal">
+          <h3 class="mono">Education</h3>
+          <div id="education"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="title"><span class="mono">02.</span> Skills</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="title"><span class="mono">03.</span> My Projects</h2>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search by name or technology (e.g. Python, Quiz, Book)…" aria-label="Search projects" />
+        <div class="chips" id="chips" role="group" aria-label="Filter by technology"></div>
+      </div>
+      <p class="mono count" id="count" aria-live="polite"></p>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <p class="empty" id="empty" hidden>No project matches your search. Try “Python”, “Quiz” or “Book”.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="title"><span class="mono">04.</span> Contact Information</h2>
+      <div class="contact-grid" id="contactGrid"></div>
+    </section>
+
+    <!-- CHATBOT -->
+    <section id="chatbot" class="section">
+      <h2 class="title"><span class="mono">05.</span> AI Chatbot</h2>
+      <p class="lead">Ask anything about me, my skills or my projects.</p>
+      <div class="chat card">
+        <div class="chat-log" id="chatLog" aria-live="polite">
+          <div class="msg bot">Hi! I'm Sumit's portfolio assistant. Ask me about his skills, projects or GitHub.</div>
+        </div>
+        <div class="suggest" id="suggest"></div>
+        <form class="chat-form" id="chatForm">
+          <input id="chatInput" type="text" placeholder="Type your question…" autocomplete="off" maxlength="500" aria-label="Chat message" required />
+          <button class="btn primary" id="sendBtn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer mono">
+    © <span id="year"></span> <span id="footName">Sumit</span> · Built with HTML, CSS, JS · Deployed on Vercel
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
