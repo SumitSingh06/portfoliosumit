@@ -2,8 +2,8 @@
 
 A responsive personal portfolio with project search/filter, light/dark mode and an API-powered AI chatbot that answers questions about me and my projects.
 
-**Live website:** YOUR_VERCEL_LIVE_URL
-**GitHub:** https://github.com/SumitSingh06
+**Live website:** (https://portfoliosumit-eta.vercel.app)
+**GitHub:** [https://github.com/SumitSingh06](https://github.com/SumitSingh06)
 
 ## Sections
 Home • About Me • Skills • Projects • Contact Information • AI Chatbot
