@@ -86,7 +86,7 @@ const PORTFOLIO = {
       id: "reading-list",
       title: "Book Reading List Application",
       repo: "reading-list-app",
-      live: "YOUR_READING_LIST_LIVE_URL",
+      live: "https://reading-list-app-kappa.vercel.app",
       tech: ["Bolt AI", "Vercel", "GitHub", "Book", "Web App"],
       description:
         "A responsive reading list app (Lecture 11) built with Bolt AI: add books, set status, filter, delete and see summary counts. Deployed on Vercel.",
