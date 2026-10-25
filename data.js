@@ -12,7 +12,7 @@ const PORTFOLIO = {
   location: "Jaipur, Rajasthan, India",
 
   github: "SumitSingh06", 
-  email: "sumitapple62@gmail.com",
+  email: "sumitapple622@gmail.com",
   linkedin: "https://www.linkedin.com/in/sumit-singh-9a4372315?utm_source=", 
 
   about: [
