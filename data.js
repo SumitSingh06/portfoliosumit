@@ -74,7 +74,7 @@ const PORTFOLIO = {
     {
       id: "quiz-app",
       title: "Interactive Quiz Application",
-      repo: "https://github.com/SumitSingh06/Code-With-AI-Quiz",
+      repo: "Code-With-AI-Quiz",
       live: "https://vercel.com/sumit-singh1/ai-quiz/2kT9Uk7V44rTq7uE87KNdK5pd5pV",
       tech: ["HTML", "CSS", "JavaScript", "Quiz", "Web App"],
       description:
