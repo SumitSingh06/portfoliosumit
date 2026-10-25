@@ -41,8 +41,8 @@ const PORTFOLIO = {
     {
       id: "python-programs",
       title: "Python Programs Collection",
-      repo: "PYTHON_PROGRAMS", // repo name only, e.g. "python-programs"
-      live: "https://github.com/SumitSingh06/experiment-8-ai-debugging-25bcon2013",
+      repo: "python-25bcon2013",
+      live: "https://github.com/SumitSingh06/python-25bcon2013",
       tech: ["Python", "Git", "GitHub", "Markdown"],
       description:
         "Beginner-friendly Python programs: Factorial, Fibonacci series, and Structure-to-Dictionary conversion, with a clean updated README.",
@@ -52,8 +52,8 @@ const PORTFOLIO = {
     {
       id: "messy-code",
       title: "Messy Python Code Improvement",
-      repo: "MESSY_python_code",
-      live: "https://github.com/SumitSingh06/experiment-8-ai-debugging-25bcon2013",
+      repo: "prompting_25bcon2013",
+      live: "https://github.com/SumitSingh06/prompting-25bcon2013",
       tech: ["Python", "AI Assistance", "Refactoring"],
       description:
         "A deliberately messy Python script cleaned up with AI help: better names, structure, functions and comments.",
@@ -63,8 +63,8 @@ const PORTFOLIO = {
     {
       id: "bug-fixing",
       title: "Bug Fixing Using Cursor AI",
-      repo: "session8", // class guide suggested this repo name — change if yours differs
-      live: "",
+      repo: "experiment-8-ai-debugging-25bcon2013", 
+      live: "https://github.com/SumitSingh06/experiment-8-ai-debugging-25bcon2013",
       tech: ["Python", "unittest", "Cursor AI", "Debugging", "Testing"],
       description:
         "A buggy Python script (student_utils.py) with 3 bugs, proven with 9 unit tests (RED), fixed, and verified (GREEN).",
