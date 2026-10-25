@@ -75,7 +75,7 @@ const PORTFOLIO = {
       id: "quiz-app",
       title: "Interactive Quiz Application",
       repo: "Code-With-AI-Quiz",
-      live: "https://vercel.com/sumit-singh1/ai-quiz/2kT9Uk7V44rTq7uE87KNdK5pd5pV",
+      live: "https://ai-quiz-mocha-pi.vercel.app",
       tech: ["HTML", "CSS", "JavaScript", "Quiz", "Web App"],
       description:
         "The 'Code With AI Quiz' (Lecture 10): 5 multiple-choice questions on AI and coding, with scoring and a final result.",
