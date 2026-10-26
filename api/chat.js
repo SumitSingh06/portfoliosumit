@@ -1,5 +1,5 @@
 // Vercel Serverless Function: POST /api/chat
-// Same Groq API (OpenAI-compatible /chat/completions) as taught in class,
+// Same Groq API (OpenAI-compatible /chat/completions),
 // but the key lives ONLY in Vercel Environment Variables (GROQ_API_KEY) — never in the repo.
 const P = require("../data.js");
 
