@@ -8,7 +8,7 @@ const PORTFOLIO = {
   tagline: "AI/ML student • Web builder • DSA in C++",
   intro:
     "Hi, I'm Sumit, a second-year B.Tech CSE AIML student in Jaipur. I use AI to solve real problems and build clean, interactive websites.",
-  photo: "assets/profile.jpg", // put your photo here (falls back to initials if missing)
+  photo: "assets/profile.jpg", 
   location: "Jaipur, Rajasthan, India",
 
   github: "SumitSingh06", 
