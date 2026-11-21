@@ -97,7 +97,7 @@ const PORTFOLIO = {
       id: "weather-app",
       title: "Weather App",
       repo: "weatherapp-new",
-      live: "weatherapp-new-gamma.vercel.app",
+      live: "https://weatherapp-new-gamma.vercel.app",
       tech: ["HTML", "CSS", "JavaScript", "Open-Meteo API", "Web App"],
       description:
         "A responsive weather app: search any city for current conditions, a 24-hour forecast and a 7-day forecast, with °C/°F switch and location support.",
