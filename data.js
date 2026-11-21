@@ -93,6 +93,17 @@ const PORTFOLIO = {
       details:
         "The visitor adds a book with a title and a reading status (Want to Read, Reading or Finished), can change the status later, and can filter the list by status. Each book is a card with a Delete button, and a summary section shows Total Books, Currently Reading and Finished counts. If the list is empty it shows 'Your reading list is empty. Add your first book.' Duplicate titles are blocked (ignoring upper/lower case and extra spaces) and titles are limited to 60 characters. Data is stored only in the browser, with no login, payments, external APIs or cloud database. It was generated with Bolt AI, pushed to GitHub as reading-list-app and deployed with Vercel; the README (updated through a pull request) has the deployed link.",
     },
+        {
+      id: "weather-app",
+      title: "Weather App",
+      repo: "weatherapp-new",
+      live: "weatherapp-new-gamma.vercel.app",
+      tech: ["HTML", "CSS", "JavaScript", "Open-Meteo API", "Web App"],
+      description:
+        "A responsive weather app: search any city for current conditions, a 24-hour forecast and a 7-day forecast, with °C/°F switch and location support.",
+      details:
+        "The visitor searches for a city, or uses their location, and the app shows the current temperature, condition, feels-like, humidity, wind, pressure, sunrise and sunset, plus the next 24 hours and a 7-day forecast. It uses the free Open-Meteo API, so no API key is needed. It handles an empty search, an unknown city, no internet connection and an unavailable service with clear messages.",
+    },
   ],
 };
 
